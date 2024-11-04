@@ -1,6 +1,7 @@
 import logging
 import os 
-from datetime import datetime
+from datetime import 
+from src.logger import logging
 
 log_file =f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log" ## this shows the format of log file which will show 
 logs_path =os.path.join(os.getcwd(),"logs",log_file)
