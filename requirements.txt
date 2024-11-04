@@ -2,3 +2,8 @@ scikit-learn
 matplotlib
 numpy
 seaborn
+kagglehub
+catboost
+xgboost
+dill
+-e .
