@@ -1,6 +1,6 @@
 import logging
 import os 
-from datetime import 
+from datetime import datetime
 from src.logger import logging
 
 log_file =f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log" ## this shows the format of log file which will show 
