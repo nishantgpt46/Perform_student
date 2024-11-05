@@ -63,4 +63,6 @@ student performance.
 
 WEb UI and Input-
 
+![alt text](image.png)
+
 ![alt text](image-2.png)
