@@ -6,4 +6,5 @@ kagglehub
 catboost
 xgboost
 dill
+flask
 -e .
