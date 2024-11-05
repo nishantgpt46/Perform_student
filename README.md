@@ -58,4 +58,9 @@ The dataset includes the following features:
 
 Objective:-
 
-The main objective is to create a predictive model that uses these features to estimate exam scores. By identifying significant factors, we can provide actionable insights for improving student performance.
+The main objective is to create a predictive model that uses these features to estimate exam scores. By identifying significant factors, we can provide actionable insights for improving 
+student performance.
+
+WEb UI and Input-
+
+![alt text](image-2.png)

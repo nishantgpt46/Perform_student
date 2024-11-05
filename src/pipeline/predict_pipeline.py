@@ -26,7 +26,6 @@ class PredictPipeline:
 
 class CustomData:
     def __init__(self,
-
                 Parental_Involvement:str,
                 Access_to_Resources:str,
                 Motivation_Level:str,
@@ -59,15 +58,17 @@ class CustomData:
     def get_data_as_data_frame(self):
         try:
             custom_data_input_dict ={
-                                 "Parental_Involvement"=[self.Parental_Involvement],
-                                 "Access_to_Resources"= [self.Access_to_Resources],
-                                 "Motivation_Level"= [self.Motivation_Level],
-                                 "Internet_Access"=  [self.Internet_Access],
-                                 "Family_Income" =[self.Family_Income],
-                "Teacher_Quality"=[self.Teacher_Quality],"School_Type"=[self.School_Type],"Peer_Influence"=[self.Peer_Influence],"Learning_Disabilities"=[self.Learning_Disabilities],
-                "Parental_Education_Level"=[self.Parental_Education_Level],"Distance_from_Home"=[self.Distance_from_Home],
-                "Gender"=[self.Gender],"Hours_Studied"=[self.Hours_Studied], "Attendance"=[self.Attendance],"Sleep_Hours"=[self.Sleep_Hours],"Previous_Scores"=[self.Previous_Scores],
-                "Tutoring_Sessions"=[self.Tutoring_Sessions],"Physical_Activity"=[self.Physical_Activity]
+                                 "Parental_Involvement":[self.Parental_Involvement],
+                                 "Access_to_Resources": [self.Access_to_Resources],
+                                 "Motivation_Level": [self.Motivation_Level],
+                                 "Internet_Access":  [self.Internet_Access],
+                                 "Family_Income" :[self.Family_Income],
+                "Teacher_Quality":[self.Teacher_Quality],
+                "School_Type":[self.School_Type],"Peer_Influence":[self.Peer_Influence],"Learning_Disabilities":[self.Learning_Disabilities],
+                "Parental_Education_Level":[self.Parental_Education_Level],
+                "Distance_from_Home":[self.Distance_from_Home],
+                "Gender":[self.Gender],"Hours_Studied":[self.Hours_Studied], "Attendance":[self.Attendance],"Sleep_Hours":[self.Sleep_Hours],"Previous_Scores":[self.Previous_Scores],
+                "Tutoring_Sessions":[self.Tutoring_Sessions],"Physical_Activity":[self.Physical_Activity]
                 }
             return pd.DataFrame(custom_data_input_dict)
 
